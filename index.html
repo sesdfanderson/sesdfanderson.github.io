@@ -3,7 +3,144 @@
   <head>
     <title>Endereços importantes SES-DF!</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://github.com/sesdfanderson/sesdfanderson.github.io/blob/master/_css/estilo.css"/>
+    
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    
+}
+
+body {
+    background-color: rgb(162, 227, 247);
+    color: rgb(90, 67, 67);
+}
+
+div#interface {
+    width: 900px;
+    background-color: rgb(117, 208, 250);
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 10px teal;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
+}
+
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: gray;
+    text-shadow: 1px 1px 1px black(0,0,0,1);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 16pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.legenda h3 {
+    display: none;
+}
+figure.legenda p {
+    display: none;
+}
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação do MENU */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(189, 204, 230);  
+    padding: 10px;  
+    margin: 1px;
+    transition: background-color 1s;
+
+}
+
+nav#menu li:hover {
+    background-color: darkcyan;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: rgb(68, 68, 245);
+    text-decoration: none;
+
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+  
+</style>
+
   </head>
   <body>
   <div id="interface">
@@ -26,6 +163,10 @@
 
           </ul>
       </nav>
+
+      <p>Clique em um dos sites e será redicionado para ele.
+      </p>
+      <p>Obs: A maioria dos sites abrem apenas na Intranet da SES-DF.</p>
 
   </div>
   </body>
